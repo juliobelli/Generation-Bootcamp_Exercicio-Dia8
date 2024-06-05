@@ -9,7 +9,7 @@ public class Exe8 {
         float valorOperacao;
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Digite seu salário: ");
+        System.out.println("Digite o valor guardado: ");
         float saldo = scanner.nextFloat();
 
         while (true) {
