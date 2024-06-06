@@ -38,7 +38,7 @@
 
 ## [Atividade 5](https://github.com/juliobelli/Generation-Java-Bootcamp/blob/main/AtividadesDia10/Exe5.java)
 
-## [Atividade 6](https://github.com/juliobelli/Generation-Java-Bootcamp/blob/main/AtividadesDia10/Exe16.java)
+## [Atividade 6](https://github.com/juliobelli/Generation-Java-Bootcamp/blob/main/AtividadesDia10/Exe6.java)
 
 
 
