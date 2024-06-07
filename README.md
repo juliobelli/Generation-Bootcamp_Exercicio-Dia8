@@ -38,8 +38,17 @@
 
 ## [Atividade 5](https://github.com/juliobelli/Generation-Java-Bootcamp/blob/main/AtividadesDia10/Exe5.java)
 
-## [Atividade 6](https://github.com/juliobelli/Generation-Java-Bootcamp/blob/main/AtividadesDia10/Exe6.java)
+## [Atividade 6]([https://github.com/juliobelli/Generation-Java-Bootcamp/blob/main/AtividadesDia10/Exe6.java)
 
+# Bootcamp Generation: Exercícios do Dia 11
+
+## [Ativdade 1](https://github.com/juliobelli/Generation-Java-Bootcamp/blob/main/AtividadesDia11/Exe1.java)
+
+## [Ativdade 2](https://github.com/juliobelli/Generation-Java-Bootcamp/blob/main/AtividadesDia11/Exe2.java)
+
+## [Ativdade 3](https://github.com/juliobelli/Generation-Java-Bootcamp/blob/main/AtividadesDia11/Exe3.java)
+
+## [Ativdade 4](https://github.com/juliobelli/Generation-Java-Bootcamp/blob/main/AtividadesDia11/Exe4.java)
 
 
 
