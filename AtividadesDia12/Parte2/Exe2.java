@@ -26,6 +26,7 @@ public class Exe2 {
                 case 1 -> {
 
                     System.out.println("\nDigite o nome do livro: ");
+                    sc.nextLine();
                     nome = sc.next();
                     livros.add(nome);
 
