@@ -34,9 +34,7 @@ public class Exe1 {
                 case 2 -> {
 
                     if (!clientes.isEmpty()) {
-                        for (String cliente : clientes) {
                             System.out.println(cliente);
-                        }
                     }else{
                         System.out.println("\nNão há clientes cadastrados.");
                     }
