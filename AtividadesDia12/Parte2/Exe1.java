@@ -26,7 +26,8 @@ public class Exe1 {
                 case 1 -> {
 
                     System.out.println("\nDigite o nome do cliente: ");
-                    nome = sc.next();
+                    sc.nextLine();
+                    nome = sc.nextLine();
                     clientes.add(nome);
 
                 }
