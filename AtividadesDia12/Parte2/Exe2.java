@@ -34,9 +34,7 @@ public class Exe2 {
                 case 2 -> {
 
                     if (!livros.isEmpty()) {
-                        for (String livro : livros) {
                             System.out.println(livros);
-                        }
                     }else{
                         System.out.println("\nNão há livros na pilha.");
                     }
