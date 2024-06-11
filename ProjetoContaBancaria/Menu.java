@@ -13,7 +13,7 @@ public class Menu {
             System.out.println(Cores.TEXT_BLUE + Cores.ANSI_BLACK_BACKGROUND);
             System.out.println("\n*****************************************************"
                             + "\n                                                     "
-                            + "\n                BANCO DO BRAZIL COM Z                "
+                            + "\n                BANCO DO CLEITO                      "
                             + "\n                                                     "
                             + "\n*****************************************************"
                             + "\n                                                     "
@@ -73,7 +73,7 @@ public class Menu {
         System.out.println("\n*****************************************************"
                 + "\nProjeto Desenvolvido por: "
                 + "\nGeneration Brasil - generation@generation.org"
-                + "\ngithub.com/conteudoGeneration "
+                + "\ngithub.com/juliobelli "
                 + "\n*****************************************************");
     }
 }
