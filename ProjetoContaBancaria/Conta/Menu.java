@@ -1,11 +1,15 @@
 package ProjetoContaBancaria.Conta;
 
 import ProjetoContaBancaria.Conta.util.Cores;
-import ProjetoContaBancaria.Conta.model.Conta;
+import ProjetoContaBancaria.Conta.model.*;
 import java.util.*;
 
 public class Menu {
     public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int op;
 
         Conta c1 = new Conta(1, 123, 1, "Adriana", 10000.0f);
         c1.visualizar();
@@ -14,15 +18,29 @@ public class Menu {
         c1.depositar(5000.0f);
         c1.visualizar();
 
-        Scanner sc = new Scanner(System.in);
 
-        int op = 0;
+        ContaCorrente cc1 = new ContaCorrente(1, 123, 1, "José da Silva", 0.0f, 1000.0f);
+        cc1.visualizar();
+        cc1.sacar(12000.0f);
+        cc1.visualizar();
+        cc1.depositar(5000.0f);
+        cc1.visualizar();
+
+
+        ContaPoupanca cp1 = new ContaPoupanca(2, 123, 2, "Maria dos Santos", 100000.0f, 15);
+        cp1.visualizar();
+        cp1.sacar(1000.0f);
+        cp1.visualizar();
+        cp1.depositar(5000.0f);
+        cp1.visualizar();
+
+
 
         while (true){
             System.out.println(Cores.TEXT_BLUE + Cores.ANSI_BLACK_BACKGROUND);
             System.out.println("\n*****************************************************"
                             + "\n                                                     "
-                            + "\n                  BANCO DO CLEITO                    "
+                            + "\n                   BANCO DO CLEITO                   "
                             + "\n                                                     "
                             + "\n*****************************************************"
                             + "\n                                                     "
