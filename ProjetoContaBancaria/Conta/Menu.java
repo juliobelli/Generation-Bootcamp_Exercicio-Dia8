@@ -120,4 +120,5 @@ public class Menu {
             System.out.println("Você pressionou uma tecla diferente de enter!");
 
         }
+    }
 }
