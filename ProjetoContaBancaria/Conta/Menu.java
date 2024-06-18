@@ -10,15 +10,15 @@ import java.util.*;
 public class Menu {
     public static void main(String[] args) {
 
+
         ContaController contas = new ContaController();
 
         Scanner sc = new Scanner(System.in);
 
-        int op, numero, agencia, tipo, aniversario;
+        int op, numero, agencia, tipo, aniversario, numeroDestino;
         String titular;
-        float saldo, limite;
+        float saldo, limite, valor;
 
-        System.out.println("\nCriar Contas\n");
         ContaCorrente cc1 = new ContaCorrente(contas.gerarNumero(), 123, 1, "João da Silva", 1000f, 100.0f);
         contas.cadastrar(cc1);
         ContaCorrente cc2 = new ContaCorrente(contas.gerarNumero(), 124, 1, "Maria da Silva", 2000f, 100.0f);
@@ -152,14 +152,47 @@ public class Menu {
                 }
                 case 6 -> {
                     System.out.println(Cores.TEXT_WHITE_BOLD + "Saque\n\n");
+
+                    System.out.println("Digite o numero da conta: ");
+                    numero = sc.nextInt();
+
+                    do{
+                        System.out.println("Digite o Valor do Saque (R$)");
+                        valor = sc.nextFloat();
+                    }while(valor <= 0);
+
+                    contas.sacar(numero, valor);
+
                     keyPress();
                 }
                 case 7 -> {
                     System.out.println(Cores.TEXT_WHITE_BOLD + "Depósito\n\n");
+
+                    System.out.println("Digite o numero da conta: ");
+                    numero = sc.nextInt();
+
+                    do {
+                        System.out.println("Digite o valor do depósito (R$): ");
+                        valor = sc.nextFloat();
+                    }while(valor <= 0);
+
+                    contas.depositar(numero, valor);
                     keyPress();
                 }
                 case 8 -> {
                     System.out.println(Cores.TEXT_WHITE_BOLD + "Transferência entre Contas\n\n");
+
+                    System.out.println("Digite o numero da conta de origem: ");
+                    numero = sc.nextInt();
+                    System.out.println("Digite o numero da conta de destino: ");
+                    numeroDestino = sc.nextInt();
+
+                    do {
+                        System.out.println("Digite o valor do origem (R$): ");
+                        valor = sc.nextFloat();
+                    }while(valor <= 0);
+
+                    contas.transferir(numero, numeroDestino, valor);
                     keyPress();
                 }
                 default -> {
